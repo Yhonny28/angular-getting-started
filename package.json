@@ -2,7 +2,8 @@
   "name": "apm",
   "version": "0.0.0",
   "contributors": [
-    "mariofph@gmail.com"
+    "mariofph@gmail.com", 
+    "yhonny28@hotmail.com"
   ],
   "scripts": {
     "ng": "ng",
