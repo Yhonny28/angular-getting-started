@@ -1,6 +1,9 @@
 {
   "name": "apm",
   "version": "0.0.0",
+  "contributors": [
+    "mariofph@gmail.com"
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve -o",
