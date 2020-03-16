@@ -1,6 +1,6 @@
 <div class="card">
     <div class="card-header">
-Product List
+{{pageTitle}}
     </div>
     <div class="card-body">
         <div class="row">
@@ -15,12 +15,13 @@ Product List
                 </div>
             </div>
     <div class="table-responsive">
-        <table class="table">
+        <table class="table"
+            *ngIf='products && products.length'>
             <thead>
                 <tr>
                     <th>
                         <button class="btn btn-primary">
-Show image
+                        Show image
                         </button>
                     </th>
                     <th>Product</th>
@@ -32,7 +33,12 @@ Show image
             </thead>
 
             <tbody>
-
+<tr ngFor='let product of products'></tr>
+<td>{{product.productName}}</td>
+<td>{{product.productCode}}</td>
+<td>{{product.releaseDate}}</td>
+<td>{{product.price}}</td>
+<td>{{product.starRating}}</td>
             </tbody>
         </table>
     </div>
