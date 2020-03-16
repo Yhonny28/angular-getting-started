@@ -25,12 +25,6 @@
               "src/api"
             ],
             "styles": [
-              {
-                "input": "./node_modules/bootstrap/dist/css/bootstrap.min.css"
-              },
-              {
-                "input": "./node_modules/font-awesome/css/font-awesome.min.css"
-              },
               "src/styles.css"
             ],
             "scripts": []
@@ -91,12 +85,6 @@
               "src/assets"
             ],
             "styles": [
-              {
-                "input": "./node_modules/bootstrap/dist/css/bootstrap.min.css"
-              },
-              {
-                "input": ".mn/node_modules/font-awesome/css/font-awesome.min.css"
-              },
               "src/styles.css"
             ],
             "scripts": []
