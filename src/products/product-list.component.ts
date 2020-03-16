@@ -4,10 +4,10 @@ import { Component } from '@angular/core';
 selector: 'pm-products',
 templateUrl: './product-list.component.html'
 })
-export class ProductListComponent {
-pageTitle: string = 'Product List!';
+export class ProductListComponent{
+pageTitle: string = 'Product List';
 products: any []=[
-    {
+   {
        "productId": 2,
        "productName": "Garden Cart",
        "productCode": "GDN-0023",
